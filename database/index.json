@@ -1,0 +1,73 @@
+{
+  "boards": [
+    {
+      "id": 0,
+      "name": "Team Workflow",
+      "sections": [
+        {
+          "id": 0,
+          "name": "BACKLOG",
+          "tasks": [
+            {
+              "id": 0,
+              "tag": "KB-1",
+              "date": "Jan 25, 2022",
+              "descriptions": "First task description"
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "READY TO WORK",
+          "tasks": []
+        },
+        {
+          "id": 2,
+          "name": "IN PROGRESS",
+          "tasks": []
+        },
+        {
+          "id": 3,
+          "name": "HOLD",
+          "tasks": []
+        },
+        {
+          "id": 4,
+          "name": "RESOLVED",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Team Workflow Beta",
+      "sections": [
+        {
+          "id": 0,
+          "name": "BACKLOG",
+          "tasks": []
+        },
+        {
+          "id": 1,
+          "name": "READY TO WORK",
+          "tasks": []
+        },
+        {
+          "id": 2,
+          "name": "IN PROGRESS",
+          "tasks": []
+        },
+        {
+          "id": 3,
+          "name": "HOLD",
+          "tasks": []
+        },
+        {
+          "id": 4,
+          "name": "RESOLVED",
+          "tasks": []
+        }
+      ]
+    }
+  ]
+}
