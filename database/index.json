@@ -1,73 +1,97 @@
 {
   "boards": [
     {
-      "id": 0,
-      "name": "Team Workflow",
+      "id": "1",
+      "name": "Workflow",
       "sections": [
         {
-          "id": 0,
-          "name": "BACKLOG",
-          "tasks": [
-            {
-              "id": 0,
-              "tag": "KB-1",
-              "date": "Jan 25, 2022",
-              "descriptions": "First task description"
-            }
-          ]
+          "id": "1",
+          "name": "BACKLOG"
         },
         {
-          "id": 1,
-          "name": "READY TO WORK",
-          "tasks": []
+          "id": "2",
+          "name": "READY TO WORK"
         },
         {
-          "id": 2,
-          "name": "IN PROGRESS",
-          "tasks": []
+          "id": "3",
+          "name": "IN PROGRESS"
         },
         {
-          "id": 3,
-          "name": "HOLD",
-          "tasks": []
+          "id": "4",
+          "name": "HOLD"
         },
         {
-          "id": 4,
-          "name": "RESOLVED",
-          "tasks": []
+          "id": "5",
+          "name": "RESOLVED"
         }
       ]
     },
     {
-      "id": 1,
-      "name": "Team Workflow Beta",
+      "id": "2",
+      "name": "Workflow Beta",
       "sections": [
         {
-          "id": 0,
-          "name": "BACKLOG",
-          "tasks": []
+          "id": "1",
+          "name": "BACKLOG"
         },
         {
-          "id": 1,
-          "name": "READY TO WORK",
-          "tasks": []
+          "id": "2",
+          "name": "READY TO WORK"
         },
         {
-          "id": 2,
-          "name": "IN PROGRESS",
-          "tasks": []
+          "id": "3",
+          "name": "IN PROGRESS"
         },
         {
-          "id": 3,
-          "name": "HOLD",
-          "tasks": []
+          "id": "4",
+          "name": "HOLD"
         },
         {
-          "id": 4,
-          "name": "RESOLVED",
-          "tasks": []
+          "id": "5",
+          "name": "RESOLVED"
         }
       ]
+    }
+  ],
+  "board_main_tasks": [
+    {
+      "tasks": [
+        {
+          "id": "1",
+          "title": "Task title 1",
+          "date": "Jan 25, 2022",
+          "description": "Task description 1",
+          "tags": [
+            "KB-1"
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Task title 2",
+          "date": "Jan 26, 2022",
+          "description": "Task description 2",
+          "tags": [
+            "KB-2"
+          ]
+        }
+      ],
+      "id": "1"
+    },
+    {
+      "tasks": [],
+      "id": "2"
+    },
+    {
+      "tasks": [],
+      "id": "3"
+    },
+    {
+      "tasks": [],
+      "id": "4"
+    },
+    {
+      "tasks": [],
+      "id": "5"
     }
   ]
 }
