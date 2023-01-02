@@ -10,8 +10,8 @@ class Api {
       ...config,
       body: JSON.stringify(payload),
       headers: {
-        "Content-type": "application-json",
-      },
+        'Content-Type': 'application/json',
+      }
     });
 
     return await request.json();
